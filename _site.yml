@@ -1,0 +1,18 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Index"
+      href: index.html
+    - text: "Resume"
+      href: Resume.html
+    - text: "Plotly"
+      href: plotly.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<az2356@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/amzhao/
+output:
+  html_document:
+    theme: cerulean

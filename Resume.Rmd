@@ -1,0 +1,16 @@
+---
+title: "Resume"
+author: "Amelia Zhao"
+date: "10/31/2019"
+output: html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+---
+
+# Resume
+
+Note: This is not a comprehensive curriculum vitae. For more information on my experiences and positions, please contact me at az2356@cumc.columbia.edu.
+
+
+
