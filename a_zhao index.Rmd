@@ -1,0 +1,12 @@
+---
+title: "a_zhao index"
+author: "Amelia Zhao"
+date: "10/31/2019"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+---
+
+# Welcome to Amelia Zhao's website!
