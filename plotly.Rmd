@@ -61,11 +61,11 @@ fooddata %>%
 ### Distribution of Inspection Scores by Cuisine Type
 This box plot shows the distribution of inspection scores for all of the restaurants, stratified by cuisine type. It's difficult to assess a possible relationship between mean scores and type of cuisine since the sample sizes for each cuisine type are very different. 
 The cuisine types and corresponding restaurants are categorized as follows: 
-American: L'Amico, Keens Steakhouse
-Chinese: Hakkasan
-Italian: Ribalta, Adrienne's Pizza Bar, Piccola Cucina
-Korean: Cho Dang Gol, Jongro BBQ
-Spanish: Sophie's Cuban
+American: L'Amico, Keens Steakhouse, 
+Chinese: Hakkasan, 
+Italian: Ribalta, Adrienne's Pizza Bar, Piccola Cucina, 
+Korean: Cho Dang Gol, Jongro BBQ, 
+Spanish: Sophie's Cuban, 
 Thai: Wondee Siam
 
 
