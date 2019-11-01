@@ -8,7 +8,7 @@ navbar:
     - text: "Resume"
       href: Resume.html
     - text: "Plotly"
-      href: dashboard.html
+      href: dashboard.html 
     - icon: fa-envelope fa-lg
       href: mailto:<az2356@cumc.columbia.edu>
     - icon: fa-github fa-lg
