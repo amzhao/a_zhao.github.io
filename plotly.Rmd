@@ -26,15 +26,9 @@ data("rest_inspec")
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Distribution of Inspection Scores by Cuisine Type
-This box plot shows the distribution of inspection scores for all of the restaurants, stratified by cuisine type. It's difficult to assess a possible relationship between mean scores and type of cuisine since the sample sizes for each cuisine type are very different. 
-The cuisine types and corresponding restaurants are categorized as follows: 
-American: L'Amico, Keens Steakhouse
-Chinese: Hakkasan
-Italian: Ribalta, Adrienne's Pizza Bar, Piccola Cucina
-Korean: Cho Dang Gol, Jongro BBQ
-Spanish: Sophie's Cuban
-Thai: Wondee Siam
+
+### Restaurant or Chain's Inspection Scores over Time
+This line graph shows the scores each restaurant received plotted against time. There don't seem to be seasonal/yearly patterns for scores. 
 
 
 ```{r}
@@ -55,6 +49,28 @@ fooddata <-
       )
     )
     
+fooddata %>% 
+  plot_ly(x = ~inspection_date, y = ~score, color = ~restaurant) %>% 
+  add_lines() %>% 
+  layout(yaxis = list(title = 'Score'), barmode = 'stack', xaxis = list(title = 'Restaurant Name')) %>% 
+  layout(title = "Restaurant/Chain Score over Time")
+
+```
+
+
+### Distribution of Inspection Scores by Cuisine Type
+This box plot shows the distribution of inspection scores for all of the restaurants, stratified by cuisine type. It's difficult to assess a possible relationship between mean scores and type of cuisine since the sample sizes for each cuisine type are very different. 
+The cuisine types and corresponding restaurants are categorized as follows: 
+American: L'Amico, Keens Steakhouse
+Chinese: Hakkasan
+Italian: Ribalta, Adrienne's Pizza Bar, Piccola Cucina
+Korean: Cho Dang Gol, Jongro BBQ
+Spanish: Sophie's Cuban
+Thai: Wondee Siam
+
+
+```{r}
+
 fooddata %>% 
   plot_ly(y = ~score, color = ~cuisine_description, type = "box") %>% 
   layout(yaxis = list(title = 'Score'), xaxis = list(title = 'Type of Cuisine')) %>% 
@@ -78,19 +94,6 @@ fooddata %>%
   layout(title = "Average Inspection Scores for Each Restaurant on Amelia's List")
 ```
 
-### Restaurant or Chain's Inspection Scores over Time
-This line graph shows the scores each restaurant received plotted against time. There don't seem to be seasonal/yearly patterns for scores. 
-
-
-```{r}
-
-fooddata %>% 
-  plot_ly(x = ~inspection_date, y = ~score, color = ~restaurant) %>% 
-  add_lines() %>% 
-  layout(yaxis = list(title = 'Score'), barmode = 'stack', xaxis = list(title = 'Restaurant Name')) %>% 
-  layout(title = "Restaurant/Chain Score over Time")
-
-```
 
 
 
