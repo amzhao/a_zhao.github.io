@@ -5,13 +5,16 @@ navbar:
   right:
     - text: "Index"
       href: index.html
-
+    - text: "Resume"
+      href: Resume.html
     - text: "Plotly"
-      href: plotly.html
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<az2356@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/amzhao/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/amelia-zhao/
 output:
   html_document:
     theme: cerulean

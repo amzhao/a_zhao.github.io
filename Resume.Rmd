@@ -2,15 +2,62 @@
 title: "Resume"
 author: "Amelia Zhao"
 date: "10/31/2019"
-output: html_document:
+output: 
+  html_document:
     toc: true
     toc_float: true
     theme: yeti
 ---
 
-# Resume
-
 Note: This is not a comprehensive curriculum vitae. For more information on my experiences and positions, please contact me at az2356@cumc.columbia.edu.
 
 
+# Education
+
+**Master of Public Health, Epidemiology (Expected Fall 2020)**  
+*Columbia University Mailman School of Public Health, New York, NY*  
+Certificate in Applied Biostatistics
+
+**Bachelor of Arts, Neuroscience & Behavior, May 2017**  
+*William Smith College, Geneva, NY*  
+Minors: Philosophy, Chemistry, & Biology
+
+
+# Professional Experience
+* **Doctors Without Borders, Medical & Operational Research Intern**, New York, NY	May 2019-Present
+  - Develop clinical research tools and documents
+  - Conduct literature review and 
+* **NORY, Intern**, New York, NY	Feb 2019-May 2019
+  - Conduct strategic market research 
+  - Streamline and refine administrative and other tasks
+* **Columbia Community Partnership for Health, Fellow**, New York, NY	Sept 2018-Jan 2019
+  - Collaborated with a community partner organization to create and develop health promotion content
+  - Authored and published articles, event postings, and videos online
+  - Developed and analyzed analytics reports on site and social media viewership
+* **Cornell AgriTech, Research Assistant**, Geneva, NY	June-Dec 2016
+  - Analyzed disease strains using PCR and genetic sequencing
+  - Developed media and culture bacteria and fungi
+  - Identified mutated gene sequences for various proteins
+  - Isolated and extracted plant pathogens from infected tissues
+* **Refugee Action Newsletter, Reporter**, Copenhagen, Denmark	Fall 2016
+  - Organized and conducted interviews
+  - Wrote and edited articles on various topics, focusing on refugee stories
+* **Office of Congresswoman Nancy Pelosi, Congressional Intern**, Washington, D.C.	Summer 2015
+  - Wrote policy memos for staff on topics including healthcare, national security, and environmental policy
+  - Wrote form letters sent to constituents
+  - Attended hearings and briefings 
+
+# Extracurricular Experiences
+* **Rescuing Leftover Cuisine, Volunteer**, New York, NY	Fall 2018-Present
+  - Aid in bringing otherwise wasted food to shelters and soup kitchens
+* **NYC Department of Health & Mental Hygiene, Team Epi Volunteer**, New York, NY	Fall 2018-Present
+  - Collect data in outbreak investigations and public health emergencies 
+* **Columbia Mailman Graduate Student Association, Epidemiology Department Representative**, New York, NY	Fall 2018-Fall 2019
+  - Elected to represent student and departmental interests in campus-wide initiatives
+  - Member of Budget Committee & Communications Committee
+
+# Skills & Certifications
+**Certifications**: HWS Gatekeeper Suicide Prevention, NIH Protecting Human Research Participants, CITI Human Subjects Protection, HIPAA Patient Privacy, Registered Yoga Teacher 
+
+**Languages**: English (native), Chinese-Mandarin (conversational), French (basic)
 
